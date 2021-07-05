@@ -2314,6 +2314,7 @@ endif
 	source "package/tor/Config.in"
 	source "package/traceroute/Config.in"
 	source "package/transmission/Config.in"
+	source "package/trojan/Config.in"
 	source "package/tunctl/Config.in"
 	source "package/tvheadend/Config.in"
 	source "package/uacme/Config.in"

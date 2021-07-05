@@ -1,0 +1,13 @@
+config BR2_PACKAGE_TROJAN
+	bool "trojan"
+	depends on BR2_TOOLCHAIN_HAS_THREADS
+	depends on BR2_USE_MMU # fork()
+	#select BR2_PACKAGE_ZLIB
+	#select BR2_PACKAGE_OPENSSL
+	select BR2_PACKAGE_BOOST
+	select BR2_PACKAGE_LIBOPENSSL
+
+	help
+	  trojan-gfw: An unidentifiable mechanism that helps you bypass GFW
+
+	  https://github.com/trojan-gfw/trojan
