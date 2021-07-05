@@ -258,7 +258,7 @@ config BR2_KERNEL_MIRROR
 
 config BR2_GNU_MIRROR
 	string "GNU Software mirror"
-	default "http://ftpmirror.gnu.org"
+	default "https://mirrors.aliyun.com"
 	help
 	  GNU has multiple software mirrors scattered around the
 	  world. The following allows you to select your preferred
